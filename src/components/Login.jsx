@@ -7,8 +7,7 @@ export default function Login() {
             <section className="flex items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900">
                 <div className="flex flex-col overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 md:flex-row max-w-5xl w-full">
                     <div className="hidden md:flex md:items-center md:justify-center md:w-3/4 md:bg-gray-700 md:dark:bg-gray-800">
-                        <img 
-                            // src="https://images.unsplash.com/photo-1625123627242-97ef1000c6d1?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                        <img
                             src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" 
                             alt="Logo Resappin" 
                             className="object-cover w-full h-full" 
@@ -38,7 +37,7 @@ export default function Login() {
 
                             <div className="flex items-center">
                                 <hr className="flex-grow border-gray-300" />
-                                <span className="px-3 text-gray-500">OR</span>
+                                <span className="px-3 text-sm text-gray-500">OR</span>
                                 <hr className="flex-grow border-gray-300" />
                             </div>
 
